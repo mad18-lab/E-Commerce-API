@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const ObjID = mongoose.schema.Types.ObjID;
+const ObjID = mongoose.Schema.Types.ObjID;
 
 const itemSchema = new mongoose.Schema({
     owner : {
