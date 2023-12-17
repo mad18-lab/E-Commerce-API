@@ -1,5 +1,5 @@
 const express = require('express');
-const items = require('../models/items');
+const Items = require('../models/items');
 const Auth = require('../middleware auth/auth');
 const route = new express.Router();
 
